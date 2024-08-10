@@ -1,0 +1,40 @@
+.imprint-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-container {
+  width: 60%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container {
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-block {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
