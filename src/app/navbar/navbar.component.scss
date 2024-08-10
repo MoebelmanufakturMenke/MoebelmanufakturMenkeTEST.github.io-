@@ -1,0 +1,39 @@
+$navbar-height: 60px; //change also in app.component.scss if you change it here
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 3%;
+  width: 97%;
+  height: $navbar-height;
+  background-color: #999; // Grau
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: white;
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-right: 20px;
+  background-color: #fff; // Weiß
+  color: #000; // Schwarz
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
