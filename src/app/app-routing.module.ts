@@ -24,10 +24,6 @@ export const routes: Routes = [
     loadComponent: () => import("./sales/sales.component").then(m => m.SalesComponent)
   },
   {
-    path: "posts",
-    loadComponent: () => import("./posts/posts.component").then(m => m.PostsComponent)
-  },
-  {
     path: "customer_ratings",
     loadComponent: () => import("./customer-ratings/customer-ratings.component").then(m => m.CustomerRatingsComponent)
   },
@@ -38,6 +34,10 @@ export const routes: Routes = [
   {
     path: "contact",
     loadComponent: () => import("./contact/contact.component").then(m => m.ContactComponent)
+  },
+  {
+    path: "posts/post-sideboard",
+    loadComponent: () => import("./posts/post-sideboard/post-sideboard.component").then(m => m.PostSideboardComponent)
   },
   {
     path: "",

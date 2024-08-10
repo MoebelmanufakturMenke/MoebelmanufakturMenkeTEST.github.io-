@@ -1,17 +1,20 @@
-<mat-accordion multi>
-  <div class="container">
-    <mat-expansion-panel expanded [hideToggle]="true">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          TEST TEXT NUMMER 1
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-
-      <div class="button-container"> <!-- Hier können Bilderlinks rein, die dann auf Berichte gehen -->
-        <!--
-        <button mat-raised-button routerLink="/menezesVanstone" color="primary">Menezes-Vanstone</button>
-        -->
+<div class="homepage-container">
+  <div class="left-container">
+    <ng-container *ngFor="let image of images; let i = index; let even = even">
+      <div *ngIf="even">
+        <a (click)="goto(image.url); $event.preventDefault()">
+          <img [src]="image.src" alt="Bild">
+        </a>
+        <p>{{ image.text }}</p>
       </div>
-    </mat-expansion-panel>
+    </ng-container>
   </div>
-</mat-accordion>
+  <div class="right-container">
+    <ng-container *ngFor="let image of images; let i = index; let odd = odd">
+      <div *ngIf="odd">
+        <img [src]="image.src" alt="Bild" (click)="goto(image.url); $event.preventDefault()">
+        <p>{{ image.text }}</p>
+      </div>
+    </ng-container>
+  </div>
+</div>
