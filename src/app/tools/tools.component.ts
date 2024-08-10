@@ -76,6 +76,9 @@ export class ToolsComponent {
     abschluss: `Durch den Einsatz dieser hochwertigen Maschinen können wir nicht nur eine
     exzellente Verarbeitungsqualität garantieren, sondern auch individuelle Kundenwünsche präzise umsetzen.
     Unser Maschinenpark ist ein wesentlicher Bestandteil unseres Engagements für Qualität und Kundenzufriedenheit.`
-
+    ,
+    images: [
+      {text: '', image: '../assets/tools/tools.png'},
+    ]
   };
 }

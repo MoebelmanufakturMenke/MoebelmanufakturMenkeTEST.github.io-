@@ -1,20 +1,22 @@
 <div class="homepage-container">
-  <div class="left-container">
-    <ng-container *ngFor="let image of images; let i = index; let even = even">
-      <div *ngIf="even">
-        <a (click)="goto(image.url); $event.preventDefault()">
-          <img [src]="image.src" alt="Bild">
-        </a>
-        <p>{{ image.text }}</p>
-      </div>
-    </ng-container>
+  <div class="image-row">
+    <a (click)="goto(images[0].url); $event.preventDefault()">
+      <img src="{{ images[0].image }}" alt="{{ images[0].text }}">
+      <span>{{ images[0].text }}</span>
+    </a>
+    <a (click)="goto(images[1].url); $event.preventDefault()">
+      <img src="{{ images[1].image }}" alt="{{ images[1].text }}">
+      <span>{{ images[1].text }}</span>
+    </a>
   </div>
-  <div class="right-container">
-    <ng-container *ngFor="let image of images; let i = index; let odd = odd">
-      <div *ngIf="odd">
-        <img [src]="image.src" alt="Bild" (click)="goto(image.url); $event.preventDefault()">
-        <p>{{ image.text }}</p>
-      </div>
-    </ng-container>
+  <div class="image-row">
+    <a (click)="goto(images[2].url); $event.preventDefault()">
+      <img src="{{ images[2].image }}" alt="{{ images[2].text }}">
+      <span>{{ images[2].text }}</span>
+    </a>
+    <a (click)="goto(images[3].url); $event.preventDefault()">
+      <img src="{{ images[3].image }}" alt="{{ images[3].text }}">
+      <span>{{ images[3].text }}</span>
+    </a>
   </div>
 </div>

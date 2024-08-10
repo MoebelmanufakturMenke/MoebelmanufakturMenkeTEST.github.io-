@@ -46,5 +46,9 @@ export class ContactComponent {
     Hier können Sie einen direkten Einblick in unsere Arbeit erhalten und persönlich mit uns Ihre
     Vorstellungen besprechen. Bitte vereinbaren Sie vorher einen Termin mit uns,
     damit wir uns ausreichend Zeit für Sie nehmen können.`
+    ,
+    images: [
+      {text: '', image: '../assets/contact/kontakt.png'},
+    ]
   }
 }

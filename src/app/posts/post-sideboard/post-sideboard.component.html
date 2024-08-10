@@ -1,1 +1,18 @@
-<p>post-sideboard works!</p>
+<div class="sideboard-container">
+  <div class="left-container">
+    <header class="header">
+      <h1>{{ header.start }}</h1>
+    </header>
+    <div class="text-block">
+      <p>{{ content.common }}</p>
+    </div>
+    <div class="text-block">
+      <h2>{{ content.sydney_header }}</h2>
+      <li *ngFor="let point of content.sydney_content">{{ point }}</li>
+    </div>
+  </div>
+  <div class="right-container">
+    <img src="{{ content.sydney_images[0].url }}" alt="{{ content.sydney_images[0].text }}">
+    <img src="{{ content.sydney_images[1].url }}" alt="{{ content.sydney_images[1].text }}">
+  </div>
+</div>

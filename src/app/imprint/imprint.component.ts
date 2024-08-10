@@ -66,5 +66,9 @@ export class ImprintComponent {
     als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
     bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir
     derartige Inhalte umgehend entfernen.`
+    ,
+    images: [
+      {text: '', image: '../assets/imprint/impressum.png'},
+    ]
   }
 }

@@ -39,10 +39,10 @@ import { Router } from '@angular/router';
  */
 export class HomepageComponent {
   images = [
-    { src: 'https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg', text: 'Sideboards', url: 'posts/post-sideboard' },
-    { src: 'https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg', text: 'Regale', url: 'posts/post-shelf' },
-    { src: 'https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg', text: 'Schränke', url: 'posts/post-cupboard' },
-    { src: 'https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg', text: 'Schreibtische', url: 'posts/post-desk' },
+    { text: 'Sideboards', image: '../assets/scetch/sideboard.png', url: 'posts/post-sideboard'},
+    { text: 'Regale', image: '../assets/scetch/regal.png', url: 'posts/post-shelf'},
+    { text: 'Schränke', image: '../assets/scetch/schrank.png', url: 'posts/post-cupboard'},
+    { text: 'Fenster', image: '../assets/scetch/fenster.png', url: 'posts/post-window'},
   ];
 
   constructor(private router: Router) { }
