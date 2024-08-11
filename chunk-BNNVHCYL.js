@@ -1,0 +1,25 @@
+import{a as x}from"./chunk-JTLW5MYU.js";import{k as b,m as p,o as f,p as v,q as w,r as k}from"./chunk-NNMAA5PN.js";import{i as g}from"./chunk-IS2LS4BH.js";import{Ra as n,Sa as i,Ta as c,Y as m,Za as s,cb as r,db as a,fb as u,ta as h,wa as t}from"./chunk-ANADDBB2.js";var A=(()=>{let o=class o{constructor(){this.header={start:"Impressum"},this.content={common:`Angaben gem\xE4\xDF \xA7 5 TMG
+             M\xF6belmanufaktur Menke Inhaber: Lars Menke Auf dem Sattel 10 49757 Werlte Deutschland
+             Kontakt: Telefon: 0173/ 35 76 313 E-Mail: info@moebelmanufaktur-menke.com
+             Umsatzsteuer-ID: Umsatzsteuer-Identifikationsnummer gem\xE4\xDF \xA727 a Umsatzsteuergesetz: FOLGT NOCH
+             Verantwortlich f\xFCr den Inhalt nach \xA7 55 Abs. 2 RStV: Lars Menke`,liability_header:"Haftungsausschluss:",liability_a_header:"Haftung f\xFCr Inhalte:",liability_a_content:`Als Diensteanbieter sind wir gem\xE4\xDF \xA7 7 Abs.1 TMG f\xFCr eigene Inhalte auf diesen
+    Seiten nach den allgemeinen Gesetzen verantwortlich. Nach \xA7\xA7 8 bis 10 TMG sind wir als Diensteanbieter
+    jedoch nicht verpflichtet, \xFCbermittelte oder gespeicherte fremde Informationen zu \xFCberwachen oder nach
+    Umst\xE4nden zu forschen, die auf eine rechtswidrige T\xE4tigkeit hinweisen. Verpflichtungen zur Entfernung oder
+    Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber\xFChrt.
+    Eine diesbez\xFCgliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung
+    m\xF6glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.`,liability_b_header:"Haftung f\xFCr Links:",liability_b_content:`Unser Angebot enth\xE4lt Links zu externen Websites Dritter,
+    auf deren Inhalte wir keinen Einfluss haben. Deshalb k\xF6nnen wir f\xFCr diese fremden Inhalte auch keine Gew\xE4hr
+    \xFCbernehmen. F\xFCr die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten
+    verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf m\xF6gliche Rechtsverst\xF6\xDFe \xFCberpr\xFCft.
+    Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der
+    verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden
+    von Rechtsverletzungen werden wir derartige Links umgehend entfernen.`,liability_c_header:"Urheberrechte:",liability_c_content:`Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
+    unterliegen dem deutschen Urheberrecht. Die Vervielf\xE4ltigung, Bearbeitung, Verbreitung und jede Art
+    der Verwertung au\xDFerhalb der Grenzen des Urheberrechtes bed\xFCrfen der schriftlichen Zustimmung des
+    jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f\xFCr den privaten,
+    nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter
+    als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
+    bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir
+    derartige Inhalte umgehend entfernen.`,images:[{text:"",image:"../assets/imprint/impressum.png"}]}}};o.\u0275fac=function(l){return new(l||o)},o.\u0275cmp=m({type:o,selectors:[["app-imprint"]],standalone:!0,features:[u],decls:28,vars:11,consts:[[1,"imprint-container"],[1,"left-container"],[1,"header"],[1,"text-block"],[1,"right-container"],[3,"src","alt"]],template:function(l,e){l&1&&(n(0,"div",0)(1,"div",1)(2,"header",2)(3,"h1"),r(4),i()(),n(5,"div",3)(6,"p"),r(7),i()(),n(8,"div",2)(9,"h2"),r(10),i(),n(11,"div",3)(12,"h3"),r(13),i(),n(14,"p"),r(15),i()(),n(16,"div",3)(17,"h3"),r(18),i(),n(19,"p"),r(20),i()(),n(21,"div",3)(22,"h3"),r(23),i(),n(24,"p"),r(25),i()()()(),n(26,"div",4),c(27,"img",5),i()()),l&2&&(t(4),a(e.header.start),t(3),a(e.content.common),t(3),a(e.content.liability_header),t(3),a(e.content.liability_a_header),t(2),a(e.content.liability_a_content),t(3),a(e.content.liability_b_header),t(2),a(e.content.liability_b_content),t(3),a(e.content.liability_c_header),t(2),a(e.content.liability_c_content),t(2),s("src",e.content.images[0].image,h),s("alt",e.content.images[0].text))},dependencies:[g,w,v,k,f,x,b,p],styles:[".imprint-container[_ngcontent-%COMP%]{display:flex;flex-direction:row;width:100%;margin:0 auto;padding:20px;box-sizing:border-box}.left-container[_ngcontent-%COMP%]{width:60%;padding:20px;box-sizing:border-box;margin-left:0%;display:flex;flex-direction:column}.right-container[_ngcontent-%COMP%]{width:40%;padding:20px;box-sizing:border-box}h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%]{font-weight:700;margin-bottom:20px}.text-block[_ngcontent-%COMP%]{background-color:#f7f7f7;padding:20px;margin-bottom:20px;box-shadow:0 0 10px #0000001a}.right-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{width:100%;margin-bottom:20px}"]});let d=o;return d})();export{A as ImprintComponent};
