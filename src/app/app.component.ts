@@ -32,5 +32,5 @@ import {FooterComponent} from "./footer/footer.component";
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent{
-  //title = 'mmm';
+  //title = 'Moebelmanufaktur-Menke';
 }

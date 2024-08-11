@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mmm": {
+    "Moebelmanufaktur-Menke": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/mmm",
+            "outputPath": "dist/Moebelmanufaktur-Menke",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mmm:build:production"
+              "buildTarget": "Moebelmanufaktur-Menke:build:production"
             },
             "development": {
-              "buildTarget": "mmm:build:development"
+              "buildTarget": "Moebelmanufaktur-Menke:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "mmm:build"
+            "buildTarget": "Moebelmanufaktur-Menke:build"
           }
         },
         "test": {
@@ -96,6 +96,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
